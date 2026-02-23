@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-02-23T17:21:17.620042+00:00",
+  "checks": {
+    "events_by_type": {
+      "shipment_updated": 518,
+      "historical_refund": 216,
+      "historical_payment": 1104,
+      "historical_order": 1200,
+      "historical_shipment": 960,
+      "order_created": 396,
+      "refund_issued": 252,
+      "payment_succeeded": 653,
+      "order_updated": 181
+    },
+    "paid_orders_without_payment": 0,
+    "refunds_without_orders": 92,
+    "payment_success_rate_by_vendor": [
+      {
+        "vendor_id": "unknown",
+        "success_rate_pct": 0.0
+      },
+      {
+        "vendor_id": "vendor_b",
+        "success_rate_pct": 0.0
+      }
+    ],
+    "late_refunds": 3
+  }
+}
